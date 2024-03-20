@@ -17,3 +17,9 @@ Laskenta suoritetaan ts_vedenkulutus.ipynb tiedostossa.
 ts_vedenkulutus_iterointi.ipynb tiedostoa käytetään hyperparametrien arvojen testaamiseen. Vaihtamalla 
 hypeparametien arvoja pyritään saavuttamaan mahdillisimman korkea ennustettavuus.
 Nämä tulokset kerättiin tiedostoon prophet_results_collection.xlsx. 
+
+Koska aika-sarja algoritmi ei tuottanut riittävän hyvää tarkkuutta testattiin data lisäksi seuraavilla algoritemeilla:
+- Gradient Boosting (M3_grad_boost.ipynb)
+- Logistic regression (M3_log_reg.ipynb)
+
+Näillä algoritmeilla saatiin hieman parempi tulos, mutta tarkkuus tavoitetta 95% ei kuitenkaan saavutettu.
